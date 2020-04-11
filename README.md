@@ -1,2 +1,2 @@
 # gotests
-Go tests
+Go tests.
