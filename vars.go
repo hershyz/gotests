@@ -8,6 +8,9 @@ func main() {
 
 	var num1 float64 = 1.5
 	var num2 float64 = 2.5
+	var run bool = true
 
-	fmt.Println(num1 + num2)
+	if run {
+		fmt.Println(num1 + num2)
+	}
 }
