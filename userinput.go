@@ -6,5 +6,5 @@ import (
 
 func main() {
 	fmt.Print("root dir: ")
-	fmt.Scanf("%s", globalDirPath)
+	fmt.Scanf("%s", &globalDirPath)
 }
