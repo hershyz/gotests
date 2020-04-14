@@ -1,2 +1,2 @@
 # gotests
-Go tests.
+golang tests
