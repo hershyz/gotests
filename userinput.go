@@ -2,9 +2,15 @@ package main
 
 import (
 	"fmt"
+	"strings"
+	"os"
+	"bufio"
 )
 
 func main() {
-	fmt.Print("root dir: ")
-	fmt.Scanf("%s", &globalDirPath)
+	reader := bufio.NewReader(os.Stdin)
+	fmt.Print("> ")
+	term, _ := reader.ReadString('\n')
+	term = strings.TrimSpace(term)
+	commandLoop()
 }
