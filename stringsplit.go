@@ -1,1 +1,1 @@
-arr := strings.split(str, substr)
+arr := strings.Split(str, substr)
